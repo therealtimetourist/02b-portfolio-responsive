@@ -226,7 +226,7 @@ aside a img{height:64px;}
     nav{
         width:100%;
 
-        font-size: 126%;
+        font-size: 115%;
     }
 
     .container{
@@ -239,13 +239,40 @@ aside a img{height:64px;}
 
     nav{ text-align: center; }
     
-    aside{ width:100%; clear:both; }
+    aside{ width:90%; clear:both; }
     
     .content-area{
         border: 0px;
 
         font-size: 22px;
         line-height: 28px;
+    }
+
+    #example-link1 {padding-left:87px; padding-right:87px;}
+    #example-link2 {padding-left:78px; padding-right:78px;}
+    #example-link3 {padding-left:75px; padding-right:76px;}
+    #example-link4 {padding-left:37px; padding-right:38px;}
+    #example-link5 {padding-left:32px; padding-right:33px;}
+    #example-link1, #example-link2, #example-link3, #example-link4, #example-link5 {margin:0px;}
+
+    #formContact{text-align: left;}
+    #formContact input {
+        margin-bottom:12px;
+        padding:6px;
+        width:100%;
+    }
+    
+    #formContact input[type=submit] {
+        width:100px;
+        background-color: #4aaaa5;
+
+    }
+    
+    .textarea {
+        padding: 5px;
+        width: 200px;
+        height: 100px;
+        text-overflow: auto;
     }
 
 }
@@ -284,7 +311,7 @@ aside a img{height:64px;}
     }
 
     
-    #formContact label, input{ display:block; }
+    #formContact label, input{ display:block;}
     
     #formContact input {
         margin-bottom:12px;
@@ -306,6 +333,13 @@ aside a img{height:64px;}
         height: 100px;
         text-overflow: auto;
     }
+
+    #example-link1 {padding-left:100px; padding-right:101px;}
+    #example-link2 {padding-left:93px; padding-right:94px;}
+    #example-link3 {padding-left:91px; padding-right:92px;}
+    #example-link4 {padding-left:64px; padding-right:64px;}
+    #example-link5 {padding-left:60px; padding-right:61px;}
+    #example-link1, #example-link2, #example-link3, #example-link4, #example-link5 {margin:0px;}
 
 }
 
